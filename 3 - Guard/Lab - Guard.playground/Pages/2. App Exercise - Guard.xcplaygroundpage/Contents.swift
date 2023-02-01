@@ -50,7 +50,11 @@ func logFood() -> (Food?) {
 
 
 //:  Call the function you made above and capture the return value. Unwrap the `Food` object with standard optional binding and print a statement about the food using each of its properties. Go back and change the text in `caloriesTextField` to a string that cannot be converted into a number. What happens in that case?
-
+var foodLogged = logFood()
+if let result = foodLogged {
+    print(result.name)
+    print(result.calories)
+}
 
 /*:
  _Copyright © 2021 Apple Inc._
