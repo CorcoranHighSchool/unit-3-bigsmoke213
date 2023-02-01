@@ -34,7 +34,7 @@ var prices = ["Chips": 2.99, "Donuts": 1.89, "Juice": 3.99, "Apple": 0.50, "Bana
 var stock = ["Chips": 4, "Donuts": 0, "Juice": 12, "Apple": 6, "Banana": 6, "Broccoli": 3]
 
 let price = prices["Chips"]
-    func getPrice(of item : String -> Double?){
+    func getPrice(of item : (String) -> Double?){
         
     }
 /*:
